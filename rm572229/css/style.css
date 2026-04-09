@@ -1,6 +1,6 @@
 
 body{
-    background-color: oklch(54.6% 0.245 262.881);
+    background-color: #1a1b18;
     color:#d1d1c1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -35,11 +35,3 @@ main{
     margin: 0 auto;
 }
 
-#cabecalho{
-    background-color: #1c2b3c;
-}
-
-#menu ul{
-    list-style: none;
-    display: flex;
-}
