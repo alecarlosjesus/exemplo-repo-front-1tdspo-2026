@@ -20,3 +20,7 @@ Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px!
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%; /* 10px, usaa a porcentagem para ajustar ao reponse da pagina */
+    /* 1rem = 10px, usar o rem para responsividade dos sites*/
+}
