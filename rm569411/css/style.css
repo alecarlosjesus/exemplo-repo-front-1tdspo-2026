@@ -22,3 +22,8 @@ Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px!
 html {
     font-size: 62.5%;
 }
+body {
+    background-color: #1a1b18;
+    color: #d1d1c1;
+
+}
