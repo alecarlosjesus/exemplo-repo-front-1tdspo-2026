@@ -19,3 +19,12 @@ Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px!
     padding: 0 ;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 3rem; /* 1rem = 10px */
+}
