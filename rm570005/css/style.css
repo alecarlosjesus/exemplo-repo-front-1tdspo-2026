@@ -8,23 +8,6 @@ body{
     padding: 20px;
 }
 
-#cabecalho {
-    background-color: #1c2b3c;
-}
-
-#menu {
-    background-color: rgb(58, 4, 49);
-}
-
-#menu ul {
-    list-style: none;
-}
-
-#menu ul li {
-    display: inline-block;
-    width: 20%;
-}
-
 main{
     max-width: 800px;
     /* margin-top: 0;
@@ -35,15 +18,13 @@ main{
     margin: 0 auto;
 }
 
-#cabecalho{ 
-    background-color: #1c2b3c; 
-}
-     
-#menu ul{ 
-    list-style: none; 
+.cabecalho {
+    background-color: oklch(37.9% 0.146 265.522);
 }
 
-#menu ul li {
-    display: inline-block;
-    width: 20%;
+.menu {
+    background-color: oklch(28.2% 0.091 267.935);
+    display: flex;
+    list-style: none;
+    gap: 14px;
 }
