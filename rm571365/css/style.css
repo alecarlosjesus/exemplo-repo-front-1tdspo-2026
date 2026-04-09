@@ -1,0 +1,30 @@
+/*
+Olá! Sua tarefa é preparar a base do nosso projeto.
+
+Requisitos:
+
+    No arquivo CSS, aplique o reset básico: margin: 0, padding: 0 e box-sizing: border-box no seletor universal *.
+
+    No html, configure a fonte base usando 62.5%.
+
+    No body, defina uma cor de fundo escura (ex: #1a1b18) e uma cor de texto clara (ex: #d1d1c1).
+
+    Aplique a fonte 'Arial' ou uma fonte local que você tenha configurado.
+
+Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px!
+*/
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%; /* 10px */
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 3rem; /* 1rem = 10px */
+}
