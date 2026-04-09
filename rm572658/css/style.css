@@ -1,35 +1,20 @@
+/* 
+Olá! Sua tarefa é preparar a base do nosso projeto.
 
-body{
-    background-color: #1a1b18;
-    color:#d1d1c1;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+Requisitos:
+
+    No arquivo CSS, aplique o reset básico: margin: 0, padding: 0 e box-sizing: border-box no seletor universal *.
+
+    No html, configure a fonte base usando 62.5%.
+
+    No body, defina uma cor de fundo escura (ex: #1a1b18) e uma cor de texto clara (ex: #d1d1c1).
+
+    Aplique a fonte 'Arial' ou uma fonte local que você tenha configurado.
+
+Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px! */
+
+*{
     margin: 0;
-    padding: 20px;
-}
-
-
-#cabecalho{
-    background-color: #1c2b3c;
-}
-
-#menu{
-    background-color: #d60fa5;
-}
-#menu ul{
-    list-style: none;
-}
-#menu ul li{
-    display: inline-block;
-    width: 20%;
-}
-
-main{
-    max-width: 800px;
-    /* margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto; */
-    /* margin: 0 auto 0 auto; */
-    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
 }
