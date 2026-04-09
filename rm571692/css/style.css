@@ -23,3 +23,6 @@ Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px!*/
 html {
     font-size: 62.5%;  /*10px*/
 }
+.cabecalho {
+    background-color: oklch(37.9% 0.146 265.522);
+}
