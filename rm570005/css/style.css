@@ -1,7 +1,4 @@
 
-
-
-
 body{
     background-color: oklch(54.6% 0.245 262.881);
     color:#d1d1c1;
@@ -10,26 +7,6 @@ body{
     margin: 0;
     padding: 20px;
 }
-
-#cabecalho{
-    background-color: #1c2b3c;
-}
-
-#menu{
-    background-color: #430623;
-
-}
-
-#menu ul{
-    list-style: none;
-}
-
-#menu ul li{
-    display: inline-block;
-    width: 20%;
-}
-
-
 
 main{
     max-width: 800px;
@@ -41,19 +18,13 @@ main{
     margin: 0 auto;
 }
 
-#cabecalho{
- background-color: #1c2b3c;
+.cabecalho {
+    background-color: oklch(37.9% 0.146 265.522);
 }
 
-
-#menu ul {
-    list-style: none; 
+.menu {
+    background-color: oklch(28.2% 0.091 267.935);
+    display: flex;
+    list-style: none;
+    gap: 14px;
 }
-
-#menu ul li {
-    display: inline-block; 
-    width: 20%;
-}
-
-
-
