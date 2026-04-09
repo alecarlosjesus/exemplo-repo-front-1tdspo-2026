@@ -18,6 +18,7 @@ main{
     margin: 0 auto;
 }
 
+<<<<<<< HEAD:rm573708/css/style.css
 #cabecalho{
     background-color: #1c2b3c;
 }
@@ -26,3 +27,14 @@ main{
     list-style: none;
     display: flex;
 }
+=======
+h1{
+    background-color: #1c2b3c;
+
+}
+
+nav{
+    color:#d7d7d7;
+}
+
+>>>>>>> a627499bc09f2d3911a00193caf707ef36882635:css/style.css
