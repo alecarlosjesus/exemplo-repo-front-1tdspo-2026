@@ -24,3 +24,8 @@ html{
     font-size: 62.5%; /* 10px, usaa a porcentagem para ajustar ao reponse da pagina */
     /* 1rem = 10px, usar o rem para responsividade dos sites*/
 }
+
+body{
+    background-color: #1a1b18;
+    color: #d1d1c1;
+}
