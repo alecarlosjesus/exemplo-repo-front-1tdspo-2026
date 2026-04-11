@@ -1,29 +1,35 @@
-/* Olá! Sua tarefa é preparar a base do nosso projeto.
-
-Requisitos:
-
-    No arquivo CSS, aplique o reset básico: margin: 0, padding: 0 e box-sizing: border-box no seletor universal *.
-
-    No html, configure a fonte base usando 62.5%.
-
-    No body, defina uma cor de fundo escura (ex: #1a1b18) e uma cor de texto clara (ex: #d1d1c1).
-
-    Aplique a fonte 'Arial' ou uma fonte local que você tenha configurado.
-
-Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px! */
-
-
-*{ 
-    margin: 0 ;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%; /* equivalente a 10px */
+    font-size: 62.5%;
+    /* equivalente a 10px */
 }
 
 body {
-    font-family: Arial , sans-serif;
-    font-size: 3 rem; /* um rem vale 10px */
+    background-color: #1a1b18;
+    color: #d1d1c1;
+    font-family: Verdana, sans-serif;
+    font-size: 3rem;
+    /* um rem vale 10px */
 }
+
+/* Utilizei essa cor baseado em alguns artigos de psicologia das cores */
+#cabecalho {
+    background-color: #7e4606;   
+}
+
+/*Olá! Sua missão é dar destaque ao nosso cabeçalho.
+
+
+
+    Estilize o título h1 com um tamanho de 3rem e centralize o texto com text-align: center.
+
+    Na lista do menu (nav ul), remova as bolinhas com list-style: none.
+
+    Adicione um padding no header para o conteúdo não encostar nas bordas.
+
+Dica: Use text-decoration: none nos links (a) para remover o sublinhado padrão. */
