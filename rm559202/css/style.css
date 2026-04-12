@@ -17,6 +17,11 @@ body {
     /* um rem vale 10px */
 }
 
+section{
+    border: 1px solid;
+    margin-bottom: 2rem;
+}
+
 /* Utilizei essa cor baseado em alguns artigos de psicologia das cores = Estimula a criatividade e o interesse. */
 #cabecalho {
     background-color: #7e4606;   
@@ -36,4 +41,6 @@ body {
 #menu .menu__link {
     text-decoration: none; /* Remove o sublinhado dos links */
 }
+
+
 
