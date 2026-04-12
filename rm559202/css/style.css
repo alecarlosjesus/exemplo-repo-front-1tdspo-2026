@@ -23,6 +23,10 @@ section{
     padding: 1.5rem;
 }
 
+section h2 {
+   color:  #d4b349;  /*parece dourado */
+}
+
 /* Utilizei essa cor baseado em alguns artigos de psicologia das cores = Estimula a criatividade e o interesse. */
 #cabecalho {
     background-color: #7e4606;   
