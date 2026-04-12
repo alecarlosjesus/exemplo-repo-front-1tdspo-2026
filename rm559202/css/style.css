@@ -17,9 +17,14 @@ body {
     /* um rem vale 10px */
 }
 
-/* Utilizei essa cor baseado em alguns artigos de psicologia das cores */
+/* Utilizei essa cor baseado em alguns artigos de psicologia das cores = Estimula a criatividade e o interesse. */
 #cabecalho {
     background-color: #7e4606;   
+}
+
+#cabecalho h1 {
+    font-size: 3rem;
+    text-align: center;
 }
 
 /*Olá! Sua missão é dar destaque ao nosso cabeçalho.
