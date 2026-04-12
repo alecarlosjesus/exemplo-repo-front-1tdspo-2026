@@ -18,13 +18,17 @@ body {
 }
 
 section{
-    border: 1px solid;
+  border: 1px solid #444;   /* Borda fina cinza */
     margin-bottom: 2rem;
     padding: 1.5rem;
 }
 
 section h2 {
    color:  #d4b349;  /*parece dourado */
+}
+
+section > p {
+    line-height: 1.6;
 }
 
 /* Utilizei essa cor baseado em alguns artigos de psicologia das cores = Estimula a criatividade e o interesse. */
