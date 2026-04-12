@@ -27,14 +27,13 @@ body {
     text-align: center;
 }
 
-/*Olá! Sua missão é dar destaque ao nosso cabeçalho.
+#menu ul {
+    list-style: none;
+    padding: 1rem; /* Adiciona um padding para o conteúdo não encostar nas bordas, cujo equivalente 10px */ 
+}
 
+/* Coloquei uma classe para os links do menu, para não ter que #menu ul li a e fica complexo demais para leitura*/
+#menu .menu__link {
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
 
-
-    Estilize o título h1 com um tamanho de 3rem e centralize o texto com text-align: center.
-
-    Na lista do menu (nav ul), remova as bolinhas com list-style: none.
-
-    Adicione um padding no header para o conteúdo não encostar nas bordas.
-
-Dica: Use text-decoration: none nos links (a) para remover o sublinhado padrão. */
