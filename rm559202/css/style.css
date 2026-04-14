@@ -36,7 +36,10 @@ section > a {
     color: #ffffff;
     display: inline-block;
     border-radius:0 5rem;
-    list-style: none;
+    text-decoration: none;
+    /* visualmente esse tamanho de padding ficou legal 5px/15px */
+    padding: 0.5rem 1.5rem; 
+
 }
 
 section > a:hover {
