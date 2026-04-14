@@ -37,6 +37,12 @@ section > a {
     display: inline-block;
 }
 
+section > a:hover {
+    background-color: #d4b349;
+    transition: 0.5s;
+   
+}
+
 /* Utilizei essa cor baseado em alguns artigos de psicologia das cores = Estimula a criatividade e o interesse. */
 #cabecalho {
     background-color: #7e4606;   
@@ -62,11 +68,9 @@ section > a {
 /* Olá! Vamos transformar os links simples em algo que pareça um botão. 
 Requisitos:
 
-    Selecione os links a que estão dentro das section.
+    
 
-    Adicione uma cor de fundo, mude a cor do texto e coloque um display: inline-block para aceitar padding.
-
-    Adicione um efeito de :hover: quando o mouse passar, a cor de fundo deve mudar suavemente (use transition).
+  
 
     Adicione um border-radius de 0.5rem para arredondar os cantos.
 
