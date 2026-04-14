@@ -68,18 +68,24 @@ section > a:hover {
     text-decoration: none; /* Remove o sublinhado dos links */
 }
 
+#rodape {
+    text-align: center;
+    padding: 2rem;;
+}
 
+/* Olá! Sua tarefa é finalizar o design da página no rodapé. 
 
-/* Olá! Vamos transformar os links simples em algo que pareça um botão. 
 Requisitos:
 
-    
+   
 
-  
+    Coloque uma borda superior (border-top) para separar o rodapé do resto do site.
 
-    Adicione um border-radius de 0.5rem para arredondar os cantos.
+    Aumente o tamanho do ícone da maratona (.fa-person-running) para 2rem e mude a cor dele.
 
-Dica: O display: inline-block é necessário porque links são elementos inline por padrão e não aceitam bem margens verticais. */
+    O ícone da Vela (span) também deve ganhar um destaque de tamanho.
+
+Dica: Use opacity: 0.8 no texto do copyright para deixá-lo mais discreto. */
 
 
 
