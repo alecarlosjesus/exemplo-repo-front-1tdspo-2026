@@ -69,9 +69,13 @@ section > a:hover {
 }
 
 #rodape {
+    border-top: #444;
     text-align: center;
     padding: 2rem;;
 }
+
+
+
 
 /* Olá! Sua tarefa é finalizar o design da página no rodapé. 
 
