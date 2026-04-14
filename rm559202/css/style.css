@@ -74,6 +74,10 @@ section > a:hover {
     padding: 2rem;;
 }
 
+#rodape p{
+    opacity: 0.8;
+}
+
 
 
 
@@ -83,13 +87,10 @@ Requisitos:
 
    
 
-    Coloque uma borda superior (border-top) para separar o rodapé do resto do site.
-
+  
     Aumente o tamanho do ícone da maratona (.fa-person-running) para 2rem e mude a cor dele.
 
-    O ícone da Vela (span) também deve ganhar um destaque de tamanho.
 
-Dica: Use opacity: 0.8 no texto do copyright para deixá-lo mais discreto. */
 
 
 
