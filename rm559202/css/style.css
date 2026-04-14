@@ -35,12 +35,14 @@ section > a {
     background-color: #949191;
     color: #ffffff;
     display: inline-block;
+    border-radius:0 5rem;
+    list-style: none;
 }
 
 section > a:hover {
     background-color: #d4b349;
     transition: 0.5s;
-   
+    
 }
 
 /* Utilizei essa cor baseado em alguns artigos de psicologia das cores = Estimula a criatividade e o interesse. */
