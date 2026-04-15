@@ -27,4 +27,7 @@ html { /*No html, configure a fonte base usando 62.5%.*/
 body {  /*No body, defina uma cor de fundo escura (ex: #1a1b18) e uma cor de texto clara (ex: #d1d1c1).*/
     background-color: rgb(64, 28, 98);
     color: rgb(206, 219, 231);
+    
+    /*Aplique a fonte 'Arial' ou uma fonte local que você tenha configurado.*/
+    font-family: Arial, Helvetica, sans-serif;
 }
