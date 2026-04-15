@@ -17,40 +17,44 @@ body {
     /* um rem vale 10px */
 }
 
-section{
-  border: 1px solid #444;   /* Borda fina cinza */
+section {
+    border: 1px solid #444;
+    /* Borda fina cinza */
     margin-bottom: 2rem;
     padding: 1.5rem;
 }
 
 section h2 {
-   color:  #d4b349;  /*parece dourado */
+    color: #d4b349;
+    /*parece dourado */
 }
 
-section > p {
+section>p {
     line-height: 1.6;
 }
 
-section > a {
+section>a {
     background-color: #949191;
     color: #ffffff;
     display: inline-block;
-    border-radius:0 5rem;
+    border-radius: 0 5rem;
     text-decoration: none;
     /* visualmente esse tamanho de padding ficou legal 5px/15px */
-    padding: 0.5rem 1.5rem; 
+    padding: 0.5rem 1.5rem;
 
 }
 
-section > a:hover {
+section>a:hover {
     background-color: #d4b349;
     transition: 0.5s;
-    
+
 }
+
+
 
 /* Utilizei essa cor baseado em alguns artigos de psicologia das cores = Estimula a criatividade e o interesse. */
 #cabecalho {
-    background-color: #7e4606;   
+    background-color: #7e4606;
 }
 
 #cabecalho h1 {
@@ -60,22 +64,25 @@ section > a:hover {
 
 #menu ul {
     list-style: none;
-    padding: 1rem; /* Adiciona um padding para o conteúdo não encostar nas bordas, cujo equivalente 10px */ 
+    padding: 1rem;
+    /* Adiciona um padding para o conteúdo não encostar nas bordas, cujo equivalente 10px */
 }
 
 /* Coloquei uma classe para os links do menu, para não ter que #menu ul li a e fica complexo demais para leitura*/
 #menu .menu__link {
-    text-decoration: none; /* Remove o sublinhado dos links */
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
 }
 
 #rodape {
     border-top: #444;
     text-align: center;
-    padding: 2rem;;
+    padding: 2rem;
+    ;
 }
 
 
-#rodape p{
+#rodape p {
     opacity: 0.8;
 }
 
@@ -86,16 +93,5 @@ section > a:hover {
 /* icone corredor da lib font-awesome */
 .fa-person-running {
     font-size: 2rem;
-    color:  #7e4606;
+    color: #7e4606;
 }
-
-
-
-
-
-
-
-
-
-
-
