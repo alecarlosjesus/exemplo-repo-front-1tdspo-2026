@@ -14,12 +14,17 @@ Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px!*/
 
 
 
-* {
+* { /*No arquivo CSS, aplique o reset básico: margin: 0, padding: 0 e box-sizing: border-box no seletor universal *.*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
+html { /*No html, configure a fonte base usando 62.5%.*/
     font-size: 62.5%;  /*1rem valha 10px*/
+}
+
+body {  /*No body, defina uma cor de fundo escura (ex: #1a1b18) e uma cor de texto clara (ex: #d1d1c1).*/
+    background-color: rgb(64, 28, 98);
+    color: rgb(206, 219, 231);
 }
