@@ -74,21 +74,25 @@ section > a:hover {
     padding: 2rem;;
 }
 
+
 #rodape p{
     opacity: 0.8;
+}
+
+#rodape span {
+    font-size: 2rem;
+}
+
+/* icone corredor da lib font-awesome */
+.fa-person-running {
+    font-size: 2rem;
+    color:  #7e4606;
 }
 
 
 
 
-/* Olá! Sua tarefa é finalizar o design da página no rodapé. 
 
-Requisitos:
-
-   
-
-  
-    Aumente o tamanho do ícone da maratona (.fa-person-running) para 2rem e mude a cor dele.
 
 
 
