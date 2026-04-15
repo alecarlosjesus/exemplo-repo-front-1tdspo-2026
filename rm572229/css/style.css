@@ -16,7 +16,7 @@ Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px!
 
 *{ /* (*) = seletor universal */
     margin: 0; /* Margens externas */
-    padding: 0; /* Margens internas */
+    padding: 1; /* Margens internas */
     box-sizing: border-box;
     font-family: Arial;
 }
@@ -30,10 +30,14 @@ html{
 header{
     background-color: #1b4d83;
 }
+
 header h1{
     font-size: 3rem;    
     text-align: center;
+}
 
+nav ul{
+    list-style-type: none;
 }
 
 body{
