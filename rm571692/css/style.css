@@ -21,5 +21,5 @@ Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px!*/
 }
 
 html {
-    font-size: 62.5%;  /*10px*/
+    font-size: 62.5%;  /*1rem valha 10px*/
 }
