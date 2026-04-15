@@ -1,36 +1,97 @@
-
-body{
-    background-color: #1a1b18;
-    color:#d1d1c1;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+* {
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-main{
-    max-width: 800px;
-    /* margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto; */
-    /* margin: 0 auto 0 auto; */
-    margin: 0 auto;
+html {
+    font-size: 62.5%;
+    /* equivalente a 10px */
 }
 
-#cabecalho{
- background-color: #1c2b3c;
+body {
+    background-color: #1a1b18;
+    color: #d1d1c1;
+    font-family: Verdana, sans-serif;
+    font-size: 3rem;
+    /* um rem vale 10px */
 }
 
+section {
+    border: 1px solid #444;
+    /* Borda fina cinza */
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+
+section h2 {
+    color: #d4b349;
+    /*parece dourado */
+}
+
+section>p {
+    line-height: 1.6;
+}
+
+section>a {
+    background-color: #949191;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 0 5rem;
+    text-decoration: none;
+    /* visualmente esse tamanho de padding ficou legal 5px/15px */
+    padding: 0.5rem 1.5rem;
+
+}
+
+section>a:hover {
+    background-color: #d4b349;
+    transition: 0.5s;
+
+}
+
+
+
+/* Utilizei essa cor baseado em alguns artigos de psicologia das cores = Estimula a criatividade e o interesse. */
+#cabecalho {
+    background-color: #7e4606;
+}
+
+#cabecalho h1 {
+    font-size: 3rem;
+    text-align: center;
+}
 
 #menu ul {
-    list-style: none; 
+    list-style: none;
+    padding: 1rem;
+    /* Adiciona um padding para o conteúdo não encostar nas bordas, cujo equivalente 10px */
 }
 
-#menu ul li {
-    display: inline-block; 
-    width: 20%;
+/* Coloquei uma classe para os links do menu, para não ter que #menu ul li a e fica complexo demais para leitura*/
+#menu .menu__link {
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+}
+
+#rodape {
+    border-top: #444;
+    text-align: center;
+    padding: 2rem;
+    ;
 }
 
 
+#rodape p {
+    opacity: 0.8;
+}
 
+#rodape span {
+    font-size: 2rem;
+}
+
+/* icone corredor da lib font-awesome */
+.fa-person-running {
+    font-size: 2rem;
+    color: #7e4606;
+}
