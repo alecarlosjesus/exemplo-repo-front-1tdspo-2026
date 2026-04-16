@@ -1,37 +1,52 @@
+/* 
+Olá! Sua tarefa é preparar a base do nosso projeto.
+
+Requisitos:
+
+    No arquivo CSS, aplique o reset básico: margin: 0, padding: 0 e box-sizing: border-box no seletor universal *.
+
+    No html, configure a fonte base usando 62.5%.
+
+    No body, defina uma cor de fundo escura (ex: #1a1b18) e uma cor de texto clara (ex: #d1d1c1).
+
+    Aplique a fonte 'Arial' ou uma fonte local que você tenha configurado.
+
+Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px!
+*/
+
+*{ /* (*) = seletor universal */
+    margin: 0; /* Margens externas */
+    padding: 10; /* Margens internas */
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+html{
+    font-size: 62.5%; /* 10px, usaa a porcentagem para ajustar ao reponse da pagina */
+    /* 1rem = 10px, usar o rem para responsividade dos sites*/
+    
+}
+
+header{
+    background-color: #1b4d83;
+    padding: 1rem;
+}
+
+header h1{
+    font-size: 3rem;    
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+}
 
 body{
     background-color: #1a1b18;
-    color:#d1d1c1;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
+    color: #d1d1c1;
 }
-
-#cabecalho{
-    background-color: #1c2b3c;
-}
-
-#menu{
-    list-style: none;
-}
-
-#menu ul{
-    list-style-type: none;
-}
-
-#menu ul li{
-    display: inline-block;
-    width: 20%;
-}
-
-main{
-    max-width: 800px;
-    /* margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto; */
-    /* margin: 0 auto 0 auto; */
-    margin: 0 auto;
-}
-
