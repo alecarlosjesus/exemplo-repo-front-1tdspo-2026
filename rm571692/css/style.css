@@ -31,3 +31,13 @@ body {  /*No body, defina uma cor de fundo escura (ex: #1a1b18) e uma cor de tex
     /*Aplique a fonte 'Arial' ou uma fonte local que você tenha configurado.*/
     font-family: Arial, Helvetica, sans-serif;
 }
+.cabecalho {
+    background-color: oklch(37.9% 0.146 265.522);
+}
+
+.menu {
+    background-color: oklch(28.2% 0.091 267.935);
+    display: flex;
+    list-style: none;
+    gap: 14px;
+}
